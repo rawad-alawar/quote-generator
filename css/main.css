@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /** {
+=======
+* {
+>>>>>>> master
     border: 1px solid red !important;
 }
 
@@ -7,7 +11,11 @@
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
+<<<<<<< HEAD
 }*/
+=======
+}
+>>>>>>> master
 
 body {
 	background-color: black;
