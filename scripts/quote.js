@@ -26,9 +26,29 @@ document.getElementById('quote-area').innerHTML = quotes[0];
 
 document.getElementById('quote-button').onclick = function() {random()}
 
+var currentQuote = quotes[0];
+
 function random(){
 	var rand = Math.floor(Math.random()*18); // creates random variable less than 18
 	document.getElementById('quote-area').innerHTML = quotes[rand];
+	currentQuote = quotes[rand];
 }
 
-
+window.twttr = (function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0], t = window.twttr || {};
+			if (d.getElementById(id)) return t;
+			js = d.createElement(s);
+			js.id = id;
+			js.src = "https://platform.twitter.com/widgets.js";
+			fjs.parentNode.insertBefore(js, fjs);
+			t._e = [];
+			t.ready = function(f) {
+				t._e.push(f);
+			};
+			return t;
+		}(document, "script", "twitter-wjs"));
+		twttr.ready(function() {
+			console.log(currentQuote);
+			twttr.widgets.createShareButton('#',document.getElementById('twitterbutton'),{ text: currentQuote , size: 'large' });
+			
+		});

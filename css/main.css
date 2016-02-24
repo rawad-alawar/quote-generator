@@ -17,7 +17,7 @@ body {
 	background-image: url("../images/spacecity.jpg");
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-position: center;
+
 	
 }
 
@@ -41,7 +41,13 @@ body {
 	overflow:auto;
 	background-color: rgba(250,250,250,0.9);
 }
-
+#twitterbutton {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow:auto;
+}
 #quote-area {
 	padding-top: 5%;
 	background-color: #000;
