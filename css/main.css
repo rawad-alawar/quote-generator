@@ -1,0 +1,75 @@
+/** {
+    border: 1px solid red !important;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}*/
+
+body {
+	background-color: black;
+}
+
+#top-box {
+	background-image: url("../images/spacecity.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+
+	
+}
+
+.button-holder {
+	margin-right: 34.6666666667%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 5%;
+}
+
+#quote-button {
+	/*position:absolute;
+	top: 70%;
+	left:50%;
+	transform: translate(-50%, -50%);*/
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow:auto;
+	background-color: rgba(250,250,250,0.9);
+}
+#twitterbutton {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow:auto;
+}
+#quote-area {
+	padding-top: 5%;
+	background-color: #000;
+	color: white;
+	height: 60vh;
+	font-family: 'Nosifer', cursive;
+	font-size: 36px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#bot-box {
+	display: flex;
+	background-color: black;
+}
+
+#zro {
+	background-image: url('../images/zro.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	margin:0 0 0 0;
+	
+}
