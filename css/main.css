@@ -1,5 +1,9 @@
 * {
+<<<<<<< HEAD
+    border: 1px solid black !important;
+=======
     border: 1px solid rgba(0,0,0,.01) !important;
+>>>>>>> 3533c6e2f4475b3d0722fb3b7155ca3f27a94367
 }
 
 * {
@@ -11,6 +15,16 @@
 
 body {
 	background-color: black;
+}
+
+#title {
+	color: purple;
+	position: relative;
+	display: inline-flex;
+	left: 20em;
+	height: 0;
+	margin-top: 3em;
+	font-family: 'Nosifer', cursive;
 }
 
 #top-box {
